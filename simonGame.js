@@ -85,7 +85,7 @@ function checkAns(idx)
         Hgscore=count;
       audio.pause();
       countdown.classList.add("over");
-    // h2.innerHTML=`Game over Hightest Score is ${Hgscore},  your score was ${count} press any key to Restart `;
+    // h2.innerHTML=`Game over Hightest Score is ${Hgscore},  your score was ${count} press any key to Restart or Double tap on Circle `;
     h2.innerHTML = `Game over. 
   <span style="color: green; font-weight: bold;">Highest Score: ${Hgscore}</span>, 
   <span style="color: red; font-weight: bold;">Your Score: ${count}</span>. 
